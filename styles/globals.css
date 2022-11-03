@@ -665,7 +665,7 @@ margin-top: 160px;
     line-height: 1.3;
   }
   .hero-banner-container h1{
-    font-size: 50px;
+    font-size: 40px;
   }
  .hero-banner-container h3{
     font-size: 40px;
@@ -762,4 +762,12 @@ margin-top: 160px;
   width: 300px;
   margin: auto;
 }
+}
+@media screen and (max-width:600px) {
+  .hero-banner-container h3{
+    font-size: 20px;
+  }
+  .beats-solo{
+    font-size: 5px;
+  }
 }
